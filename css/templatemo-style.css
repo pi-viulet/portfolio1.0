@@ -24,6 +24,21 @@ html,body {
     Typorgraphy              
 -----------------------------------------*/
 
+h7 {
+  font-style: normal;
+  font-weight: 300;
+}
+
+h7 {
+  font-weight: 300;
+}
+
+h7 {
+  font-size: 80px;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-style: normal;
   font-weight: 300;
@@ -355,8 +370,8 @@ a:hover, a:active, a:focus {
   padding-left: 0;
 }
 
-#home .home-img {
-  background: url('../images/home-img.jpg') no-repeat;
+#home .rose {
+  background: url('../images/rose.png') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -439,8 +454,8 @@ a:hover, a:active, a:focus {
     Experience section              
 -----------------------------------------*/
 
-#experience .experience-img {
-  background: url('../images/experience-img.jpg') no-repeat;
+#experience .hobbies {
+  background: url('../images/hobbies.jpg') no-repeat;
 }
 
 #experience .media-heading {
@@ -489,8 +504,8 @@ a:hover, a:active, a:focus {
    Quotes section              
 -----------------------------------------*/
 
-#quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+#testimony {
+    background: url('../images/testimony.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -532,8 +547,8 @@ a:hover, a:active, a:focus {
   min-height: 75vh;
 }
 
-#contact .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
+#contact .email {
+  background: url('../images/email.jpg') no-repeat;
   min-height: 75vh;
 }
 
